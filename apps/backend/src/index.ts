@@ -164,7 +164,6 @@ const app = new Elysia()
     return { data: result, message: "Course submissions retrieved" };
   });
 
-
 // HANYA JALAN DI DEVELOPMENT
 if (process.env.NODE_ENV != "production") {
   app.listen(3000);
