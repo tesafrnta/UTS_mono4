@@ -172,7 +172,7 @@ if (process.env.NODE_ENV != "production") {
   console.log(`🦊 DATABASE_URL: ${process.env.DATABASE_URL}`);
 }
 
-// WAJIB untuk Vercel
+
 export default app;
 
 export type App = typeof app;
